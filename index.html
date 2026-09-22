@@ -184,7 +184,7 @@ function renderSyncBox(){
   document.getElementById("syncCard").innerHTML = `
     <div class="sync-box">
       <b style="font-size:12.5px;">اتصال به گوگل‌شیت:</b>
-      <input id="sheetUrlInput" style="flex:1;min-width:240px;" placeholder="لینک Web App گوگل اپس‌اسکریپت را اینجا بچسبانید"
+      <input id="sheetUrlInput" style="flex:1;min-width:240px;" placeholder="https://script.google.com/macros/s/AKfycbzbzs3-_CIyYh0n8UHvz-w7rDSMK_TqQZiI-2Er-qDc5SONx_XPMGp6jjvKei-pxTb7/exec"
         value="${esc(url)}" onchange="saveSheetUrl(this.value)">
       <button class="btn-ghost" onclick="pullFromSheet()">⬇ دریافت از شیت</button>
       <button class="btn-ghost" onclick="pushToSheet()">⬆ ارسال به شیت</button>
